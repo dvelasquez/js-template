@@ -1,0 +1,5 @@
+# Created by .ignore support plugin (hsz.mobi)
+/web/web.iml
+/web/src/lib
+/web/bower_components
+/web/node_modules

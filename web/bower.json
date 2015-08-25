@@ -1,0 +1,20 @@
+{
+  "name": "frontend-js-template",
+  "version": "0.0.0",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-material": "~0.10.1",
+    "lodash": "~3.10.1",
+    "angular-ui-router": "~0.2.15"
+  }
+}
