@@ -18,7 +18,7 @@ gulp.task('index', function () {
     var appStream = gulp.src(['src/index.js','src/app/**/*.js'], {read: false});
 
     gulp.src('src/index.html')
-        .pipe(inject(series(vendorStream, appStream),{relative:true})) // This will always inject vendor files before app files
+        .pipe(inject(series(vendorStream, appStream),{relative:true}))
         .pipe(gulp.dest('src/'));
 });
 
