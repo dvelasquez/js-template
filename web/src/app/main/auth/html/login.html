@@ -9,8 +9,8 @@
             <label>Password</label>
             <input ng-model="user.password" type="password">
         </md-input-container>
-        <md-button md-no-ink class="md-primary md-raised login-buttons">Login</md-button>
-        <md-button md-no-ink class="md-warn md-raised login-buttons">Register</md-button>
+        <md-button md-no-ink class="md-primary md-raised login-buttons" ng-click="login()">Login</md-button>
+        <md-button md-no-ink class="md-warn md-raised login-buttons" ng-click="register()">Register</md-button>
     </md-card>
 
 </md-content>

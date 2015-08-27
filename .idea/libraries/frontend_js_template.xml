@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="frontend-js-template" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/web/src/lib/lodash/lodash.js" />
+        <item url="file://$PROJECT_DIR$/web/src/lib/angular/angular.js" />
+        <item url="file://$PROJECT_DIR$/web/src/lib/angular-aria/angular-aria.js" />
+        <item url="file://$PROJECT_DIR$/web/src/lib/angular-ui-router/release/angular-ui-router.js" />
+        <item url="file://$PROJECT_DIR$/web/src/lib/angular-material/angular-material.js" />
+        <item url="file://$PROJECT_DIR$/web/src/lib/angular-animate/angular-animate.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/web/src/lib/angular/angular.js" />
+      <root url="file://$PROJECT_DIR$/web/src/lib/lodash/lodash.js" />
+      <root url="file://$PROJECT_DIR$/web/src/lib/angular-aria/angular-aria.js" />
+      <root url="file://$PROJECT_DIR$/web/src/lib/angular-ui-router/release/angular-ui-router.js" />
+      <root url="file://$PROJECT_DIR$/web/src/lib/angular-material/angular-material.js" />
+      <root url="file://$PROJECT_DIR$/web/src/lib/angular-animate/angular-animate.js" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
