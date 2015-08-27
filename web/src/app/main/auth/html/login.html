@@ -1,3 +1,16 @@
-<md-content>
-    <h1>HOLA</h1>
+<md-content layout-fill flex layout="row" layout-align="center center" class="login-background">
+
+    <md-card layout-wrap layout-padding layout="column" layout-align="center center">
+        <md-input-container flex>
+            <label>Email</label>
+            <input ng-model="user.email" type="email">
+        </md-input-container>
+        <md-input-container flex>
+            <label>Password</label>
+            <input ng-model="user.password" type="password">
+        </md-input-container>
+        <md-button md-no-ink class="md-primary md-raised login-buttons">Login</md-button>
+        <md-button md-no-ink class="md-warn md-raised login-buttons">Register</md-button>
+    </md-card>
+
 </md-content>

@@ -3,7 +3,7 @@
  */
 angular.module('MainApp')
     .controller('LoginController', function($scope){
-        alert("test");
+
     })
     .config(function($stateProvider){
         $stateProvider.state('auth', {

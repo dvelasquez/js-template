@@ -15,7 +15,7 @@ gulp.task('copy-lib', function() {
 gulp.task('index', function () {
     var vendorStream = gulp.src(['src/lib/**/*.js','src/lib/**/*.css'], {read: false});
 
-    var appStream = gulp.src(['src/index.js','src/app/**/*.js'], {read: false});
+    var appStream = gulp.src(['src/index.js','src/app/**/*.js', 'src/resources/css/**/*.css'], {read: false});
 
     gulp.src('src/index.html')
         .pipe(inject(series(vendorStream, appStream),{relative:true}))
