@@ -9,3 +9,11 @@
 .login-buttons{
     width: 100%;
 }
+
+.md-button-icon{
+    min-width: 0;
+}
+
+.md-button{
+    line-height: 0;
+}

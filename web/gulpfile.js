@@ -25,7 +25,8 @@ gulp.task('index', function () {
 gulp.task('connect', function() {
     connect.server({
         root: 'src/',
-        livereload: true
+        livereload: true,
+        port:8000
     });
 });
 

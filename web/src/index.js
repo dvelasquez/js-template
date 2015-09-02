@@ -5,7 +5,8 @@ angular.module('MainApp',[
     'ngAnimate',
     'ngMaterial',
     'ui.router',
-    'ngStorage'
+    'ngStorage',
+    'ngMdIcons'
 ])
     .run(function () {
 

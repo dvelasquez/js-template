@@ -14,8 +14,10 @@
   ],
   "dependencies": {
     "angular-material": "~0.10.1",
-    "lodash": "~3.10.1",
+    "angular-material-icons": "~0.5.0",
     "angular-ui-router": "~0.2.15",
-    "ngstorage": "~0.3.9"
+    "lodash": "~3.10.1",
+    "ngstorage": "~0.3.9",
+    "svg-morpheus": "~0.1.8"
   }
 }

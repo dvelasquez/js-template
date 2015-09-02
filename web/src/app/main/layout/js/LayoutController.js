@@ -3,6 +3,28 @@
  */
 angular.module('MainApp')
     .controller('LayoutController', function($scope, $mdSidenav){
+
+
+        $scope.smOptions = {
+            smCurrent: 'favorite_outline',
+            smInitIcon: 'favorite_outline',
+            smEndIcon: 'favorite',
+            smColor: 'black',
+            options: {duration: 375, rotation: 'none'}
+        };
+
+
+        $scope.clickIcon = 'menu';
+        $scope.clickIconMorph = function() {
+            if ($scope.clickIcon === 'menu'){
+                $scope.clickIcon = 'arrow_back';
+            }
+            else{
+                $scope.clickIcon = 'menu';
+            }
+        };
+        $scope.options = {duration: 375, rotation: 'none'};
+
         //-------------------------------------------------------------------
         $scope.close = function () {
             $mdSidenav('left').close();
