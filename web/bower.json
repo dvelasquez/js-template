@@ -1,6 +1,6 @@
 {
-  "name": "frontend-js-template",
-  "version": "0.0.0",
+  "name": "angular-template-v2",
+  "version": "2.0.0",
   "moduleType": [
     "amd"
   ],

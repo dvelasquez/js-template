@@ -1,0 +1,27 @@
+angular-template-v2
+--------------------
+
+Directories: /web
+This is the project root folder. Inside we have the package.json (npm and gulp libraries installator), bower.json (front end package manager) and gulpfile.js (task and flows for the project).
+
+Getting Started.
+
+1. Run npm install.
+    This command install the main libraries and gulp libraries for compile and minifies the code.
+2. Run bower install.
+    This command install the Front End Packages
+3. Run gulp default (or just gulp).
+    This command grab the bower_components files and only picks the dist files from them, copying to the src/lib folder.
+    After that, refresh the index.html file injecting the js and css from the files.
+    Finally run a webserver in localhost:8000 with livereload.
+
+The source files are all located under the /src folder. Please refer to the read.me files inside them for more details.
+
+To generate the dist files just use the command gulp dist. This command will create the /dist folders with the necessary
+  files to mount the project.
+
+Inside the /src we have 3 folders:
+1. app/ -> main and shared project controllers and css
+2. lib/ -> front end packages for minification
+3. resources/ -> static resources, such as images or svg files.
+
