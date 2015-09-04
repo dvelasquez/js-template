@@ -3,7 +3,11 @@
 <head>
     <title>frontend-js-template</title>
     <!-- inject:css -->
-    <link rel="stylesheet" href="resources/css/primary.css">
+    <link rel="stylesheet" href="lib/angular-material/angular-material.css">
+    <link rel="stylesheet" href="app/shared/css/shared.css">
+    <link rel="stylesheet" href="app/main/auth/css/login.css">
+    <link rel="stylesheet" href="app/main/home/css/home.css">
+    <link rel="stylesheet" href="app/main/layout/css/layout.css">
     <!-- endinject -->
 </head>
 <body ng-app="MainApp">
@@ -11,6 +15,15 @@
 
 </ui-view>
 <!-- inject:js -->
+<script src="lib/angular/angular.js"></script>
+<script src="lib/angular-animate/angular-animate.js"></script>
+<script src="lib/angular-aria/angular-aria.js"></script>
+<script src="lib/angular-material/angular-material.js"></script>
+<script src="lib/angular-material-icons/angular-material-icons.min.js"></script>
+<script src="lib/lodash/lodash.js"></script>
+<script src="lib/ngstorage/ngStorage.js"></script>
+<script src="lib/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="lib/svg-morpheus/compile/minified/svg-morpheus.js"></script>
 <script src="index.js"></script>
 <script src="app/shared/directives/simpleMorph.js"></script>
 <script src="app/main/auth/js/LoginController.js"></script>

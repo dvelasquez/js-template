@@ -3,14 +3,17 @@
  */
 angular.module('MainApp')
     .controller('HomeController', function($scope, $state){
-        $scope.login = function(){
-            $state.go('');
-        };
+       alert("hola");
     })
     .config(function($stateProvider){
         $stateProvider.state('main.home', {
             url: '/home/',
-            templateUrl: 'app/main/home/html/home.html',
-            controller: 'HomeController'
+            views: {
+                content: {
+                    templateUrl: 'app/main/home/html/home.html',
+                    controller: 'HomeController'
+                }
+            }
+
         });
     });
